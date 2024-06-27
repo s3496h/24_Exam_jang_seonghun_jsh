@@ -7,10 +7,18 @@ public class Main {
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         int b = in.nextInt();
-        for (int i = 1; i < a ; i++ )
 
+        for (int i = 0; i < b; i++) {
+            for (int j = 0; j < a; j++) {
+                System.out.printf("*");
+            }
             System.out.println();
-
+        }
     }
-
 }
+
+
+
+
+
+
